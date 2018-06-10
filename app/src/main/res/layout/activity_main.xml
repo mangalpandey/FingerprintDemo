@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivFingerprint"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_fingerprint_black_24dp"
+        android:contentDescription="@string/fingerprint_desc"/>
+
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="@string/desc_fingerprint"
+        android:layout_margin="16dp"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"/>
+
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

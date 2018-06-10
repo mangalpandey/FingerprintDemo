@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FingerprintDemo</string>
+    <string name="desc_fingerprint">Please place your fingertip on the fingerprint scanner to verify your fingerprint</string>
+    <string name="fingerprint_desc">Fingerprint Image</string>
+    <string name="security_not_enable">Lock screen security not enabled in Settings</string>
+    <string name="device_does_not_have">Your Device does not have a Fingerprint Scanner</string>
+    <string name="permission_not_enable">Fingerprint authentication permission not enabled</string>
+    <string name="register_at_least_one">Register at least one fingerprint in Settings</string>
+    <string name="login_successful">Login Successful</string>
+</resources>
